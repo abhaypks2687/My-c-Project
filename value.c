@@ -6,6 +6,6 @@ int main()
     /*int a=20;
     printf("Enter a number:");
     scanf("%d",&a);*/
-    printf("The value of variable is %c",m);
+    printf("The value of variable is %d",m);
     return 0;
 }
