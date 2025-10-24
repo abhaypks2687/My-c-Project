@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    printf("This is my First Program");
+    int x,y;
+    printf("Enter a number:");
+    scanf("%d%d",&x,&y);
+    printf("The Sum of %d & %d is%d",x,y,x+y);
+
     return 0;
 }
