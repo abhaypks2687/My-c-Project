@@ -2,9 +2,10 @@
 #include<stdio.h>
 int main()
 {
-    int a=20;
+    char m='A';
+    /*int a=20;
     printf("Enter a number:");
-    scanf("%d",&a);
-    printf("The value of variable is %d",a);
+    scanf("%d",&a);*/
+    printf("The value of variable is %c",m);
     return 0;
 }
