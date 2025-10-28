@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    char m='A';
+    char m='a';
     /*int a=20;
     printf("Enter a number:");
     scanf("%d",&a);*/
