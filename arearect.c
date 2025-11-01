@@ -2,12 +2,12 @@
 #include<stdio.h>
 int main()
 {
-    int l,b,Area;
+   float l,b,Area;
     printf("Enter length:");
-    scanf("%d",&l);
+    scanf("%f",&l);
     printf("Eneter a Width:");
-    scanf("%d",&b);
+    scanf("%f",&b);
     Area=l*b;
-    printf("Area of rectangle is %d",Area);
+    printf("Area of rectangle is %0.2f",Area);
     return 0;
 }
