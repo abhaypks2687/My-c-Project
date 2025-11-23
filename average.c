@@ -7,6 +7,6 @@ int main()
     printf("Enter Three Numbers:");
     scanf("%d%d%d",&x,&y,&z);
     average=(x+y+z)/3.0;
-    printf("Average of three numbers is %f",average);
+    printf("Average of three numbers is %0.2f",average);
 
 }
