@@ -1,10 +1,20 @@
-// WAP to input a character from the user and print its ASCII code//
-#include<stdio.h>
+// 1. WAP to input a character from the user and print its ASCII code//
+/*#include<stdio.h>
 int main()
 {
     char m;
     printf("Enter a character:");
     scanf("%c",&m);
     printf("ASCII code of input character %c is %d",m,m);
+    return 0;
+}*/
+//2. Wap a program to input ASCII code from the user and print its corresponding character//
+#include<stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter an ASCII code:");
+    scanf("%c",&ch);
+    printf("ASCII character %c is %d",ch,ch);
     return 0;
 }
