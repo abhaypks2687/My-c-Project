@@ -1,4 +1,4 @@
-//WAP to calculate area of a perimeter. Input appropriate data form the user.
+//WAP to calculate a perimeter of rectangle . Input appropriate data form the user.
 #include<stdio.h>
 int main()
 {
