@@ -19,12 +19,34 @@ int main()
     return 0;
 }*/
 //3.Wap to input three charcter from the user and display character with their corresponding ASCII codes//
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     char m,ch,a;
     printf("Enter three characters:");
     scanf("%c%c%c",&m,&ch,&a);
     printf("ASCII code is %c %d\nASCII code is %c %d\nASCII code is %c %d",m,m,ch,ch,a,a);
+    return 0;
+}*/
+//4. Wap to print last digit of a given number.//
+/*#include<stdio.h>
+int main()
+{
+ int x,digit;
+ printf("Enter a number:");
+ scanf("%d",&x);
+ digit=x%10;
+ printf("Last Digit Number is:%d",digit);
+ return 0;
+}*/
+//5. Wap to print a given number without last digit//
+#include<stdio.h>
+int main()
+{
+    int num,digit;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    digit=num/10;
+    printf("Number Without Last Digit is %d",digit);
     return 0;
 }
