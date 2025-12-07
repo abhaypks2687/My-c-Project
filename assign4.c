@@ -83,8 +83,9 @@ int main()
     scanf("%d",&a);
     printf("Enter 2nd number:");
     scanf("%d",&b);
-    a=a|b;
-    b=a&b;
+    a=a^b;
+    b=a^b;
+    a=a^b;
     printf("After Swapping Value of a is %d and b is %d",a,b);
     return 0;
 
