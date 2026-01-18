@@ -31,6 +31,19 @@ int main()
     printf("\nSize of float is %d",a);
     return 0;
 }*/
+//OTHER METHOD//
+#include<stdio.h>
+int main()
+{
+    int a;
+    float b;
+    char ch;
+    double d;
+    printf("%d %d %d %d",sizeof(a),sizeof(b),sizeof(ch),sizeof(d));
+    return 0;
+}
+
+
 //4 Write a program to make the last digit of a number stored in variable as zero.Ex.2345 is 2340//
 
 /*#include<stdio.h>
@@ -45,8 +58,7 @@ int main()
 }*/
 /*5 Write a program to input a number from the user and also input a digit. Append a digit in 
 the number and print the resulting number.Ex.Number=234 and digit=9 resulting number =2349.*/
-
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
     int num,digit,resulting;
@@ -57,4 +69,4 @@ int main()
     resulting=(num*10)+digit;
     printf("Resulting Number is:%d",resulting);
     return 0;
-}
+}*/
