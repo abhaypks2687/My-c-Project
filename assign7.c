@@ -67,7 +67,7 @@ int main()
     int num;
     printf("Enter a number:");
     scanf("%d",&num);
-    if(num & 1)// 0-even and 1-odd//
+    if(num & 1)// last bit 0-even number  and last bit 1-odd number//
     printf("%d is an odd number",num);
     else 
     printf("%d is an even number",num);
