@@ -42,8 +42,6 @@ int main()
     printf("%d %d %d %d",sizeof(a),sizeof(b),sizeof(ch),sizeof(d));
     return 0;
 }
-
-
 //4 Write a program to make the last digit of a number stored in variable as zero.Ex.2345 is 2340//
 
 /*#include<stdio.h>
@@ -69,4 +67,4 @@ int main()
     resulting=(num*10)+digit;
     printf("Resulting Number is:%d",resulting);
     return 0;
-}*/
+}*/ 
